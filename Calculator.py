@@ -4,7 +4,12 @@ def plus():#สหัสชัย สิทธิมงคล
             ผลลัพธ์ = a + b
             print(ผลลัพธ์)
 
-def minus():
+def minus():#สิทธิโชค ลิ้มไล้
+            a = float(input(": "))
+            b = float(input(": "))
+            ผลลัพธ์ = a - b
+            print(ผลลัพธ์)
+     
 def multi():
 def divi():
 while True:
@@ -16,7 +21,7 @@ while True:
     choose=int(input("กรอกวิธีคำนวณ"))
     if (choose==1):
         plus()
-    elif(choose==):
+    elif(choose==2):
         minus()
     elif(choose==):
         multi()
@@ -24,3 +29,4 @@ while True:
         divi()
     else:
         print("error")
+
