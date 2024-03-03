@@ -10,11 +10,15 @@ def minus():#สิทธิโชค ลิ้มไล้
             ผลลัพธ์ = a - b
             print(ผลลัพธ์)
      
-def multi():
-def divi():#ธีรเดช เจริญผล
+def multi():#ปณิธาน ปัญญารัตนโยธิน
             a = float(input(": "))
             b = float(input(": "))
-            ผลลัพธ์ = 
+            ผลลัพธ์ = a * b
+            print(ผลลัพธ์)
+
+def divi():#ธีรเดช เจริญผล
+            a = float(input(": "))
+            b = float(input(": ")) 
             ผลลัพธ์ = a / b
             print(ผลลัพธ์)
 while True:
@@ -28,7 +32,7 @@ while True:
         plus()
     elif(choose==2):
         minus()
-    elif(choose==):
+    elif(choose==3):
         multi()
     elif(choose==4):
         divi()
